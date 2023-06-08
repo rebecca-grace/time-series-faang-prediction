@@ -45,7 +45,12 @@ Further the close price was shifted 1 row so that the open, low, high prices etc
 
 The best model resulting from the tuning process was a single layer ANN with a normal weight initialisation, 100 neurons and a small learning rate which is more likely to find the minimal MSE point for a specific neuron. This configuration was used in cross validation testing on the FAANG stocks.
 
+![result1](/images/result-1.png)
+
+![result2](/images/result-2.png)
 
 The large cross validation scores for Amazon and Netflix could be the result of correlated predictors or explainable due to the adaptive Adam estimation finding a saddle point along the gradient descent. The best performing stock using the ANN model was Netflix with a 88% cross validation score. Compared to the random forest the ANN was computationally slow which might be due to the dropout function.
 
 As seen from the graphs below, visually Facebook's prediction had the highest error (blue = actual, orange = predicted) with a general observation being the ANN was effective at predicting the direction of the daily stock movement but not the magnitude.
+
+![result3](/images/result-3.png)
