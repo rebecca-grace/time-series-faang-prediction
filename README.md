@@ -8,10 +8,10 @@ Sklearn implementaiton of Artificial Neural Network prediction of FAANG trading 
 Repository
  |-- ANN_tuning_code.ipynb	# Main code notebook
  |    |-- input     # input csv data
- |    |    |-- fundamentals.csv              # 
- |    |    |-- prices-split-adjusted.csv     #
- |    |    |-- prices.csv                    # 
- |    |    |-- securities.csv                #
+ |    |    |-- fundamentals.csv               
+ |    |    |-- prices-split-adjusted.csv     
+ |    |    |-- prices.csv                     
+ |    |    |-- securities.csv                
 ```
 
 ### 2. Overview
